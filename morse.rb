@@ -30,3 +30,9 @@ def decode_char(char)
 
   map[char]
 end
+
+def decode_word(str)
+  str.split(' ')
+end
+
+print decode_word('-- -.--')
