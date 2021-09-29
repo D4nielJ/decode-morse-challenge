@@ -28,5 +28,5 @@ map = {
 }
 
 def decode_char(char)
-  return map[char]
+  map[char]
 end
