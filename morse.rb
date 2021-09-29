@@ -1,4 +1,4 @@
-map = {
+$map = {
   '.-' => 'A',
   '-...' => 'B',
   '-.-.' => 'C',
@@ -28,5 +28,5 @@ map = {
 }
 
 def decode_char(char)
-  map[char]
+  $map[char]
 end
